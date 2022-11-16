@@ -88,6 +88,10 @@ Install PyTorch 1.9.1 (require CUDA >= 10.2):
 ```
 conda install pytorch==1.9.1 torchvision==0.10.1 torchaudio==0.9.1 cudatoolkit==10.2 -c pytorch
 ```
+In order to integrate swin-transformer, install the latest pytorch version:
+```
+conda install pytorch==1.12.1 torchvision==0.13.1 torchaudio==0.12.1 -c pytorch
+```
 Install necessary packages:
 ```
 pip install -r requirements.txt
